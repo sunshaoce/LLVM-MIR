@@ -3,6 +3,7 @@
   "displayName": "LLVM MIR",
   "description": "Highlight for LLVM MIR",
   "version": "0.0.3",
+  "publisher": "sunshaoce",
   "engines": {
     "vscode": "^1.83.0"
   },
