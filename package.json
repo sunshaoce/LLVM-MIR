@@ -1,0 +1,25 @@
+{
+  "name": "llvmmir",
+  "displayName": "LLVM MIR",
+  "description": "Highlight for LLVM MIR",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "LLVM MIR",
+      "aliases": ["MIR", "llvm mir"],
+      "extensions": ["mir"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "LLVM MIR",
+      "scopeName": "source.mir",
+      "path": "./syntaxes/llvm mir.tmLanguage.json"
+    }]
+  }
+}
