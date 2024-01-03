@@ -1,30 +1,46 @@
 {
-  "name": "llvmmir",
-  "displayName": "LLVM MIR",
-  "description": "Highlight for LLVM MIR",
-  "version": "0.0.3",
-  "publisher": "sunshaoce",
-  "engines": {
-    "vscode": "^1.83.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sunshaoce/LLVM-MIR.git"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [{
-      "id": "LLVM MIR",
-      "aliases": ["MIR", "llvm mir"],
-      "extensions": ["mir"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "LLVM MIR",
-      "scopeName": "source.mir",
-      "path": "./syntaxes/llvm mir.tmLanguage.json"
-    }]
-  }
+	"name": "llvmmir",
+	"displayName": "LLVM MIR",
+	"description": "LLVM MIR highlight",
+	"publisher": "sunshaoce",
+	"version": "0.2.15",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Programming Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "mir",
+				"aliases": [
+					"MIR",
+					"mir"
+				],
+				"extensions": [
+					".mir",
+					".MIR"
+				],
+				"configuration": "./mir.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "mir",
+				"scopeName": "source.mir",
+				"path": "./Syntaxes/MIR.tmLanguage"
+			}
+		]
+	},
+	"bugs": {
+		"url": "https://github.com/sunshaoce/LLVM-IR/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sunshaoce/LLVM-IR.git"
+	},
+	"homepage": "https://github.com/sunshaoce/LLVM-IR/blob/master/README.md"
 }
