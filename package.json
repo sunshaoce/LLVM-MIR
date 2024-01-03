@@ -3,7 +3,7 @@
 	"displayName": "LLVM MIR",
 	"description": "LLVM MIR highlight",
 	"publisher": "sunshaoce",
-	"version": "0.2.15",
+	"version": "0.2.16",
 	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^0.10.1"
