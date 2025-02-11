@@ -89,6 +89,7 @@
 				reassoc |
 				resume |
 				ret |
+				samesign |
 				sdiv |
 				select |
 				sext |
@@ -99,6 +100,7 @@
 				sitofp |
 				sle |
 				slt |
+				splat |
 				srem |
 				store |
 				strictfp |
@@ -162,6 +164,7 @@
 				deplibs |
 				dereferenceable |
 				dereferenceable_or_null |
+				disjoint |
 				distinct |
 				dllexport |
 				dllimport |
@@ -170,6 +173,7 @@
 				external |
 				false |
 				fastcc |
+				freeze |
 				gc |
 				global |
 				hidden |
@@ -189,6 +193,7 @@
 				minsize |
 				module |
 				monotonic |
+				mustprogress |
 				naked |
 				nest |
 				noalias |
@@ -199,6 +204,7 @@
 				nofree |
 				noimplicitfloat |
 				noinline |
+				none |
 				nonlazybind |
 				nonnull |
 				norecurse |
@@ -217,6 +223,7 @@
 				protected |
 				ptx_device |
 				ptx_kernel |
+				range |
 				readnone |
 				readonly |
 				readwrite |
@@ -229,6 +236,7 @@
 				sanitize_thread |
 				section |
 				seq_cst |
+				shadowcallstack |
 				sideeffect |
 				signext |
 				source_filename |
@@ -252,6 +260,7 @@
 				weak |
 				weak_odr |
 				willreturn |
+				write |
 				writeonly |
 				x86_fastcallcc |
 				x86_stdcallcc |
